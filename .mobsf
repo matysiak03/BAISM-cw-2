@@ -1,0 +1,7 @@
+---
+- ignore-rules:
+  - android_task_hijacking2
+
+  severity-filter:
+  - WARNING
+  - ERROR
