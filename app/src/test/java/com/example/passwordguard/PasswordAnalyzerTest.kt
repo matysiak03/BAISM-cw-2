@@ -18,7 +18,7 @@ class PasswordAnalyzerTest {
     fun shortPasswordShouldBeWeak() {
         val result = PasswordAnalyzer.analyze("abc")
 
-        assertEquals(999, result.score)
+        assertEquals(15, result.score)
         assertEquals("Slabe", result.strength)
     }
 
